@@ -1,0 +1,341 @@
+/* ConnOSS Professional Styling */
+
+/* Clean header styling */
+.md-header {
+  background: #ffffff !important;
+  border-bottom: 1px solid #e5e7eb;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Professional logo styling */
+.md-header__button.md-logo img {
+  height: 70px !important;
+  width: auto !important;
+  max-width: none !important;
+  filter: brightness(1.1) contrast(1.2);
+  transition: transform 0.2s ease;
+}
+
+.md-header__button.md-logo img:hover {
+  transform: scale(1.02);
+}
+
+.md-header__button.md-logo {
+  padding: 12px 16px !important;
+  background: transparent;
+  border-radius: 8px;
+  transition: background-color 0.2s ease;
+}
+
+.md-header__button.md-logo:hover {
+  background: #f3f4f6;
+}
+
+/* Custom header title next to logo */
+.md-header__title {
+  display: none !important;
+}
+
+/* Search bar styling */
+.md-search {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.md-search__form {
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.md-search__form:hover {
+  background: #ffffff;
+  border-color: #2a664e;
+  box-shadow: 0 0 0 3px rgba(42, 102, 78, 0.1);
+}
+
+.md-search__form:focus-within {
+  background: #ffffff;
+  border-color: #2a664e;
+  box-shadow: 0 0 0 3px rgba(42, 102, 78, 0.1);
+}
+
+.md-search__input {
+  color: #374151;
+  background: transparent;
+  border: none;
+  font-size: 14px;
+  padding: 8px 12px;
+}
+
+.md-search__input::placeholder {
+  color: #9ca3af;
+}
+
+.md-search__input:focus {
+  outline: none;
+}
+
+.md-search__button {
+  color: #6b7280;
+  transition: color 0.2s ease;
+}
+
+.md-search__button:hover {
+  color: #2a664e;
+}
+
+/* Search results styling */
+.md-search-result__meta {
+  color: #6b7280;
+  font-size: 12px;
+}
+
+.md-search-result__title {
+  color: #2a664e;
+  font-weight: 600;
+}
+
+.md-search-result__teaser {
+  color: #4b5563;
+}
+
+.md-header__button {
+  color: #374151 !important;
+  transition: color 0.2s ease;
+}
+
+.md-header__button:hover {
+  color: #2a664e !important;
+}
+
+/* Professional navigation tabs */
+.md-tabs {
+  background: #f9fafb !important;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.md-tabs__link {
+  color: #6b7280 !important;
+  font-weight: 500;
+  padding: 12px 16px !important;
+  transition: all 0.2s ease;
+}
+
+.md-tabs__link:hover {
+  color: #2a664e !important;
+  background: #f3f4f6;
+}
+
+.md-tabs__link--active {
+  color: #2a664e !important;
+  background: #ffffff;
+  border-bottom: 2px solid #2a664e;
+}
+
+/* Clean sidebar */
+.md-sidebar {
+  background: #ffffff !important;
+  border: none;
+  box-shadow: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Professional sidebar navigation */
+.md-nav__link {
+  color: #374151 !important;
+  padding: 10px 16px !important;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+  font-weight: 500;
+}
+
+.md-nav__link:hover {
+  color: #2a664e !important;
+  background: #f3f4f6;
+  transform: none;
+}
+
+.md-nav__link--active {
+  color: #2a664e !important;
+  background: #f0fdf4;
+  font-weight: 600;
+}
+
+/* Sidebar title */
+.md-nav__title {
+  color: #2a664e !important;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.1em;
+  padding: 16px 16px 8px 16px;
+  border-bottom: 1px solid #e5e7eb;
+  margin-bottom: 8px;
+}
+
+/* Clean content area */
+.md-content {
+  background: #ffffff;
+  padding: 20px 40px 40px 40px;
+  margin-top: 0;
+}
+
+/* Remove page title spacing */
+.md-content > h1:first-child {
+  display: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Ensure content starts immediately */
+.md-content > *:first-child {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* Remove extra spacing from content wrapper */
+.md-content__inner {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* Hide page titles */
+.md-content h1 {
+  display: none !important;
+}
+
+/* Hide page titles in content */
+.md-content > h1:first-child {
+  display: none !important;
+}
+
+.md-content h2 {
+  color: #2a664e;
+  font-weight: 600;
+  margin-top: 32px;
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #e5e7eb;
+}
+
+.md-content h3 {
+  color: #374151;
+  font-weight: 600;
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+
+.md-content p {
+  color: #4b5563;
+  line-height: 1.7;
+  margin-bottom: 16px;
+}
+
+/* Professional buttons */
+.md-button {
+  background: #2a664e;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.md-button:hover {
+  background: #1c5e5b;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(42, 102, 78, 0.3);
+  color: white;
+}
+
+/* Clean cards */
+.md-content .card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 24px;
+  margin: 20px 0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Professional code blocks */
+.md-content pre {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  border-left: 4px solid #2a664e;
+}
+
+/* Clean tables */
+.md-content table {
+  border-collapse: collapse;
+  width: 100%;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.md-content th {
+  background: #f8fafc;
+  color: #374151;
+  font-weight: 600;
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.md-content td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #f3f4f6;
+}
+
+/* Professional links */
+.md-content a {
+  color: #2a664e;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.md-content a:hover {
+  color: #1c5e5b;
+  text-decoration: underline;
+}
+
+/* Clean scrollbar */
+.md-sidebar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.md-sidebar::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+.md-sidebar::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+
+.md-sidebar::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 76.1875em) {
+  .md-content {
+    padding: 20px;
+  }
+  
+  .md-header__button.md-logo img {
+    height: 40px !important;
+  }
+}
+
+/* Smooth transitions */
+* {
+  transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
+}
