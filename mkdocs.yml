@@ -1,0 +1,18 @@
+site_name: ConnOSS
+site_url: https://connoss.org
+theme:
+  name: material
+  logo: images/logo.png
+  favicon: images/logo.png
+  palette:
+    primary: teal
+    accent: teal
+  features:
+    - navigation.footer
+  copyright: "&copy; 2025 ConnOSS Project. All rights reserved."
+
+plugins:
+  - search
+
+extra_css:
+  - stylesheets/connoss.css
