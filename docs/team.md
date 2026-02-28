@@ -21,7 +21,7 @@
   <a href="https://www.uni-oldenburg.de" target="_blank">
     <img src="../images/Carl_von_Ossietzky_Universität_Oldenburg.png" alt="University of Oldenburg Logo" style="height: 80px; max-width: 200px;">
   </a>
-  <p style="margin-top: 10px; font-size: 14px;"><strong>Carl von Ossietzky University</strong><br>Oldenburg</p>
+  <p style="margin-top: 10px; font-size: 14px;"><strong>Carl von Ossietzky Universität</strong><br>Oldenburg</p>
 </div>
 
 <div style="text-align: center;">
@@ -48,7 +48,7 @@ Carl von Ossietzky Universität Oldenburg
 ## Contributors
 
 👤 **[Stephan Ferenz](https://orcid.org/0000-0001-9523-7227)**  
-OFFIS - Institute for Information Technology  
+Carl von Ossietzky Universität Oldenburg 
 
 👤 **[Lu Gan](https://orcid.org/0000-0001-5844-3021)**  
 GESIS - Leibniz-Institut für Sozialwissenschaften 
@@ -57,7 +57,7 @@ GESIS - Leibniz-Institut für Sozialwissenschaften
 OFFIS - Institute for Information Technology 
 
 👤 **[Aida Jafarbigloo](https://orcid.org/0000-0002-1435-0584)**  
-OFFIS - Institute for Information Technology
+Carl von Ossietzky Universität Oldenburg
 
 👤 **[Suhasini Venkatesh](https://orcid.org/0009-0005-7305-3052)**  
 ZB MED - Information Centre for Life Sciences
