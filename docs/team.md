@@ -62,6 +62,9 @@ Carl von Ossietzky Universität Oldenburg
 👤 **[Suhasini Venkatesh](https://orcid.org/0009-0005-7305-3052)**  
 ZB MED - Information Centre for Life Sciences
 
+👤 **[Maryam Sefidbari](https://orcid.org/0009-0008-7998-3965)**  
+ZB MED - Information Centre for Life Sciences
+
 ## Get in Touch
 
 We'd love to hear from you! Whether you're a researcher interested in using ConnOSS, an institution looking to collaborate, or someone with questions about the project, we're here to help.
