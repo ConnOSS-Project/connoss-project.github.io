@@ -40,4 +40,12 @@ We envision a future where research software is as discoverable and citable as r
 
 ## Reference
 
-Castro, L. J., Mathiak, B., & Nieße, A. (2025). Connected Open Source Software - ConnOSS - Proposal (v1.0.0). [Zenodo](https://doi.org/10.5281/zenodo.15616384)
+- Ashokan, A., Venkatesh, S., & Castro, L. J. (2026, March 2). *A metadata extraction tool for GitLab repositories*. deRSE26 - Conference for Research Software Engineering in Germany (deRSE26). https://doi.org/10.5281/zenodo.18837374  
+
+- Castro, L. J. (2025, November 19). *Initiatives at ZB MED and NFDI on metadata for software and AI models*. Zenodo. https://doi.org/10.5281/zenodo.17642991  
+
+- Castro, L. J., Mathiak, B., & Nieße, A. (2025, June). *Connected Open Source Software—ConnOSS - Proposal (Version v1.0.0) [Proposal]*. Zenodo. https://doi.org/10.5281/zenodo.15616384  
+
+- Jafarbigloo, A., Mathiak, B., Castro, L. J., Gan, L., Sefidbari, M., Werth, O., & Venkatesh, S. (2026, March 2). *ConnOSS and Metadata Extraction for Research Software [Poster]*. https://doi.org/10.5281/zenodo.18835973  
+
+- Sefidbari, M., Venkatesh, S., Gan, L., Jafarbigloo, A., Ferenz, S., Mathiak, B., Nieße, A., Werth, O., & Castro, L. J. (n.d.). *Introducing ConnOSS - Connected Open-Source Software*. https://doi.org/10.5281/zenodo.18836442  
