@@ -1,0 +1,175 @@
+{
+  "@context": "http://schema.org/",
+  "@id": "https://connoss-project.github.io/",
+  "@type": "ResearchProject",
+  "name": "ConnOSS", 
+  "contributor": [
+    {
+      "@type": "Organization",
+      "name": "ZB MED – Information Centre for Life Sciences",
+      "url": "https://www.zbmed.de/"
+    },
+    {
+      "@type": "Organization",
+      "name": "GESIS – Leibniz Institute for the Social Sciences",
+      "url": "https://www.gesis.org/"
+    },
+    {
+      "@type": "Organization",
+      "name": "OFFIS – Institute for Information Technology",
+      "url": "https://www.offis.de/"
+    },
+    {
+      "@type": "Organization",
+      "name": "Carl von Ossietzky Universität",
+      "url": "https://uni-oldenburg.de/"
+    }
+  ],
+  "foundingDate": "2025-09-01",
+  "description": "ConnOSS is a DFG-funded research project that aims to help researchers showcase their software work and makes it easier for others to find and use research software. We believe that good research software should be visible, properly described, and easy to discover. ConnOSS offers an automated infrastructure that generates consistent, harmonized, and enriched metadata for research software. Unlike manual metadata creation, which is time-consuming, or existing tools with limited coverage, ConnOSS streamlines the process—enabling researchers to enhance the visibility and FAIRness of their software with minimal effort.",
+  "keywords": "ConnOSS, research project, research software, software visibility, software discoverability, harmonized metadata, enriched metadata, FAIRness",
+  "url": "https://connoss-project.github.io/",
+  "author": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-3986-0510",
+      "givenName": "Leyla Jael",
+      "familyName": "Castro"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-1793-9615",
+      "givenName": "Brigitte",
+      "familyName": "Mathiak"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-1881-9172",
+      "givenName": "Astrid",
+      "familyName": "Nieße"
+    }
+],
+"contributor":[
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-9523-7227",
+      "givenName": "Stephan",
+      "familyName": "Ferenz"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-5844-3021",
+      "givenName": "Lu",
+      "familyName": "Gan"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-6767-5905",
+      "givenName": "Oliver",
+      "familyName": "Werth"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-1435-0584",
+      "givenName": "Aida",
+      "familyName": "Jafarbigloo"
+    },
+{
+      "@type": "Person",
+      "@id": "https://orcid.org/0009-0005-7305-3052",
+      "givenName": "Suhasini",
+      "familyName": "Venkatesh"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0009-0008-7998-3965",
+      "givenName": "Maryam",
+      "familyName": "Sefidbari"
+    }
+  ],  
+  "funding": [
+    {
+      "@type": "Grant",
+      "@id": "https://gepris.dfg.de/gepris/projekt/561044496",
+      "funder": {
+        "@type": "Organization",
+        "@id": "https://ror.org/018mejw64",
+        "name": "Deutsche Forschungsgemeinschaft", 
+        "alternateName": "German Research Foundation",
+        "url": "http://www.dfg.de/en/"  
+      },
+      "identifier": "561044496",
+      "description": "Project no. 561044496, as part of the \"Research Data and Software\" program within the Scientific Library Services and Information Systems (LIS) funding scheme."
+    }
+  ],
+"citation": [
+  {
+    "@type": "CreativeWork",
+    "@id": "https://doi.org/10.5281/zenodo.18837374",
+    "name": "A metadata extraction tool for GitLab repositories. deRSE26 - Conference for Research Software Engineering in Germany (deRSE26).",
+    "author": [
+      { "@type": "Person", "name": "Ashokan, A." },
+      { "@type": "Person", "name": "Venkatesh, S." },
+      { "@type": "Person", "name": "Castro, L. J." }
+    ],
+    "datePublished": "2026-03-02",
+    "url": "https://doi.org/10.5281/zenodo.18837374"
+  },
+  {
+    "@type": "CreativeWork",
+    "@id": "https://doi.org/10.5281/zenodo.17642991",
+    "name": "Initiatives at ZB MED and NFDI on metadata for software and AI models",
+    "author": [
+      { "@type": "Person", "name": "Castro, L. J." }
+    ],
+    "datePublished": "2025-11-19",
+    "url": "https://doi.org/10.5281/zenodo.17642991"
+  },
+  {
+    "@type": "Report",
+    "@id": "https://doi.org/10.5281/zenodo.15616384",
+    "name": "Connected Open Source Software—ConnOSS - Proposal (Version v1.0.0)",
+    "author": [
+      { "@type": "Person", "name": "Castro, L. J." },
+      { "@type": "Person", "name": "Mathiak, B." },
+      { "@type": "Person", "name": "Nieße, A." }
+    ],
+    "datePublished": "2025-06-07",
+    "url": "https://doi.org/10.5281/zenodo.15616384"
+  },
+  {
+    "@type": "Poster",
+    "@id": "https://doi.org/10.5281/zenodo.18835973",
+    "name": "ConnOSS and Metadata Extraction for Research Software",
+    "author": [
+      { "@type": "Person", "name": "Jafarbigloo, A." },
+      { "@type": "Person", "name": "Mathiak, B." },
+      { "@type": "Person", "name": "Castro, L. J." },
+      { "@type": "Person", "name": "Gan, L." },
+      { "@type": "Person", "name": "Sefidbari, M." },
+      { "@type": "Person", "name": "Werth, O." },
+      { "@type": "Person", "name": "Venkatesh, S." }
+    ],
+    "datePublished": "2026-03-02",
+    "url": "https://doi.org/10.5281/zenodo.18835973"
+  },
+  {
+    "@type": "CreativeWork",
+    "@id": "https://doi.org/10.5281/zenodo.18836442",
+    "name": "Introducing ConnOSS - Connected Open-Source Software",
+    "author": [
+      { "@type": "Person", "name": "Sefidbari, M." },
+      { "@type": "Person", "name": "Venkatesh, S." },
+      { "@type": "Person", "name": "Gan, L." },
+      { "@type": "Person", "name": "Jafarbigloo, A." },
+      { "@type": "Person", "name": "Ferenz, S." },
+      { "@type": "Person", "name": "Mathiak, B." },
+      { "@type": "Person", "name": "Nieße, A." },
+      { "@type": "Person", "name": "Werth, O." },
+      { "@type": "Person", "name": "Castro, L. J." }
+    ],
+    "datePublished": "2026-03-01",
+    "url": "https://doi.org/10.5281/zenodo.18836442"
+  }
+]  
+}
