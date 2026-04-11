@@ -6,25 +6,30 @@
   "contributor": [
     {
       "@type": "Organization",
+      "@id":"https://ror.org/0259fwx54",
       "name": "ZB MED – Information Centre for Life Sciences",
       "url": "https://www.zbmed.de/"
     },
     {
       "@type": "Organization",
+      "@id":"https://ror.org/018afyw53",
       "name": "GESIS – Leibniz Institute for the Social Sciences",
       "url": "https://www.gesis.org/"
     },
     {
       "@type": "Organization",
+      "@id":"https://ror.org/003sav189",
       "name": "OFFIS – Institute for Information Technology",
       "url": "https://www.offis.de/"
     },
     {
       "@type": "Organization",
+      "@id":"https://ror.org/033n9gh91",
       "name": "Carl von Ossietzky Universität",
       "url": "https://uni-oldenburg.de/"
     }
   ],
+
   "foundingDate": "2025-09-01",
   "description": "ConnOSS is a DFG-funded research project that aims to help researchers showcase their software work and makes it easier for others to find and use research software. We believe that good research software should be visible, properly described, and easy to discover. ConnOSS offers an automated infrastructure that generates consistent, harmonized, and enriched metadata for research software. Unlike manual metadata creation, which is time-consuming, or existing tools with limited coverage, ConnOSS streamlines the process—enabling researchers to enhance the visibility and FAIRness of their software with minimal effort.",
   "keywords": "ConnOSS, research project, research software, software visibility, software discoverability, harmonized metadata, enriched metadata, FAIRness",
