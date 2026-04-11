@@ -12,6 +12,8 @@ ConnOSS is funded by the Deutsche Forschungsgemeinschaft (DFG) under grant numbe
   <img src="../images/DFG.png" alt="DFG Logo" style="height: 60px; margin: 10px;">
 </div>
 
+<p><a href="connoss_metadata.json" download> 💾 Download JSON-LD metadata </a></p>
+
 More information can be found at [DFG's GEPRIS research information system](https://gepris.dfg.de/gepris/projekt/561044496).
 
 <div style="text-align: center; margin: 40px 0;">
