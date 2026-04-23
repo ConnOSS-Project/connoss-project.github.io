@@ -16,6 +16,8 @@ More information can be found at [DFG's GEPRIS research information system](http
 
 <p><a href="connoss_metadata.json" download style="font-weight: bold;"> 💾 Download JSON-LD metadata for ConnOSS project </a></p>
 
+<p><a href="ro-crate-metadata.json" download style="font-weight: bold;"> 💼 Download RO-Crate for ConnOSS project </a></p>
+
 <div style="text-align: center; margin: 40px 0;">
   <a href="about/" class="md-button md-button--primary" style="margin: 10px;">Learn More</a>
   <a href="team/" class="md-button md-button--primary" style="margin: 10px;">Meet the Team</a>
