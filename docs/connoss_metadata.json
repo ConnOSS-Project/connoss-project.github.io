@@ -3,7 +3,11 @@
   "@id": "https://connoss-project.github.io/",
   "@type": "ResearchProject",
   "name": "ConnOSS", 
-  "contributor": [
+  "foundingDate": "2025-09-01",
+  "description": "ConnOSS is a DFG-funded research project that aims to help researchers showcase their software work and makes it easier for others to find and use research software. We believe that good research software should be visible, properly described, and easy to discover. ConnOSS offers an automated infrastructure that generates consistent, harmonized, and enriched metadata for research software. Unlike manual metadata creation, which is time-consuming, or existing tools with limited coverage, ConnOSS streamlines the process—enabling researchers to enhance the visibility and FAIRness of their software with minimal effort.",
+  "keywords": "ConnOSS, research project, research software, software visibility, software discoverability, harmonized metadata, enriched metadata, FAIRness",
+  "url": "https://connoss-project.github.io/",
+  "member": [
     {
       "@type": "Organization",
       "@id":"https://ror.org/0259fwx54",
@@ -27,14 +31,7 @@
       "@id":"https://ror.org/033n9gh91",
       "name": "Carl von Ossietzky Universität",
       "url": "https://uni-oldenburg.de/"
-    }
-  ],
-
-  "foundingDate": "2025-09-01",
-  "description": "ConnOSS is a DFG-funded research project that aims to help researchers showcase their software work and makes it easier for others to find and use research software. We believe that good research software should be visible, properly described, and easy to discover. ConnOSS offers an automated infrastructure that generates consistent, harmonized, and enriched metadata for research software. Unlike manual metadata creation, which is time-consuming, or existing tools with limited coverage, ConnOSS streamlines the process—enabling researchers to enhance the visibility and FAIRness of their software with minimal effort.",
-  "keywords": "ConnOSS, research project, research software, software visibility, software discoverability, harmonized metadata, enriched metadata, FAIRness",
-  "url": "https://connoss-project.github.io/",
-  "author": [
+    },
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0003-3986-0510",
@@ -52,9 +49,7 @@
       "@id": "https://orcid.org/0000-0003-1881-9172",
       "givenName": "Astrid",
       "familyName": "Nieße"
-    }
-],
-"contributor":[
+    },
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0001-9523-7227",
@@ -107,74 +102,69 @@
       "description": "Project no. 561044496, as part of the \"Research Data and Software\" program within the Scientific Library Services and Information Systems (LIS) funding scheme."
     }
   ],
-"citation": [
-  {
-    "@type": "CreativeWork",
-    "@id": "https://doi.org/10.5281/zenodo.18837374",
-    "name": "A metadata extraction tool for GitLab repositories. deRSE26 - Conference for Research Software Engineering in Germany (deRSE26).",
-    "author": [
-      { "@type": "Person", "name": "Ashokan, A." },
-      { "@type": "Person", "name": "Venkatesh, S." },
-      { "@type": "Person", "name": "Castro, L. J." }
-    ],
-    "datePublished": "2026-03-02",
-    "url": "https://doi.org/10.5281/zenodo.18837374"
-  },
-  {
-    "@type": "CreativeWork",
-    "@id": "https://doi.org/10.5281/zenodo.17642991",
-    "name": "Initiatives at ZB MED and NFDI on metadata for software and AI models",
-    "author": [
-      { "@type": "Person", "name": "Castro, L. J." }
-    ],
-    "datePublished": "2025-11-19",
-    "url": "https://doi.org/10.5281/zenodo.17642991"
-  },
-  {
-    "@type": "Report",
-    "@id": "https://doi.org/10.5281/zenodo.15616384",
-    "name": "Connected Open Source Software—ConnOSS - Proposal (Version v1.0.0)",
-    "author": [
-      { "@type": "Person", "name": "Castro, L. J." },
-      { "@type": "Person", "name": "Mathiak, B." },
-      { "@type": "Person", "name": "Nieße, A." }
-    ],
-    "datePublished": "2025-06-07",
-    "url": "https://doi.org/10.5281/zenodo.15616384"
-  },
-  {
-    "@type": "Poster",
-    "@id": "https://doi.org/10.5281/zenodo.18835973",
-    "name": "ConnOSS and Metadata Extraction for Research Software",
-    "author": [
-      { "@type": "Person", "name": "Jafarbigloo, A." },
-      { "@type": "Person", "name": "Mathiak, B." },
-      { "@type": "Person", "name": "Castro, L. J." },
-      { "@type": "Person", "name": "Gan, L." },
-      { "@type": "Person", "name": "Sefidbari, M." },
-      { "@type": "Person", "name": "Werth, O." },
-      { "@type": "Person", "name": "Venkatesh, S." }
-    ],
-    "datePublished": "2026-03-02",
-    "url": "https://doi.org/10.5281/zenodo.18835973"
-  },
-  {
-    "@type": "CreativeWork",
-    "@id": "https://doi.org/10.5281/zenodo.18836442",
-    "name": "Introducing ConnOSS - Connected Open-Source Software",
-    "author": [
-      { "@type": "Person", "name": "Sefidbari, M." },
-      { "@type": "Person", "name": "Venkatesh, S." },
-      { "@type": "Person", "name": "Gan, L." },
-      { "@type": "Person", "name": "Jafarbigloo, A." },
-      { "@type": "Person", "name": "Ferenz, S." },
-      { "@type": "Person", "name": "Mathiak, B." },
-      { "@type": "Person", "name": "Nieße, A." },
-      { "@type": "Person", "name": "Werth, O." },
-      { "@type": "Person", "name": "Castro, L. J." }
-    ],
-    "datePublished": "2026-03-01",
-    "url": "https://doi.org/10.5281/zenodo.18836442"
-  }
-]  
+"knowsAbout": [
+    {
+      "@type": "Report",
+      "@id": "https://doi.org/10.5281/zenodo.15616384",
+      "name": "Connected Open Source Software - ConnOSS - Proposal (Version v1.0.0)",
+      "author": [
+        { "@type": "Person", "name": "Castro, L. J." },
+        { "@type": "Person", "name": "Mathiak, B." },
+        { "@type": "Person", "name": "Nieße, A." }
+      ],
+      "datePublished": "2025-06-07"
+    },
+    {
+      "@type": "Poster",
+      "@id": "https://doi.org/10.5281/zenodo.18835973",
+      "name": "ConnOSS and Metadata Extraction for Research Software",
+      "author": [
+        { "@type": "Person", "name": "Jafarbigloo, A." },
+        { "@type": "Person", "name": "Mathiak, B." },
+        { "@type": "Person", "name": "Castro, L. J." },
+        { "@type": "Person", "name": "Gan, L." },
+        { "@type": "Person", "name": "Sefidbari, M." },
+        { "@type": "Person", "name": "Werth, O." },
+        { "@type": "Person", "name": "Venkatesh, S." }
+      ],
+      "datePublished": "2026-03-02"
+    },
+    {
+      "@type": "PresentationDigitalDocument",
+      "name": "A metadata extraction tool for GitLab repositories. deRSE26 - Conference for Research Software Engineering in Germany (deRSE26).",
+      "@id": "https://doi.org/10.5281/zenodo.18837374",
+      "author": [
+        { "@type": "Person", "name": "Ashokan, A." },
+        { "@type": "Person", "name": "Venkatesh, S." },
+        { "@type": "Person", "name": "Castro, L. J." }
+      ],
+      "datePublished": "2026-03-02"
+    },
+    {
+      "@type": "PresentationDigitalDocument",
+      "name": "Initiatives at ZB MED and NFDI on metadata for software and AI models",
+      "@id": "https://doi.org/10.5281/zenodo.17642991",
+      "author": [
+        { "@type": "Person", "name": "Castro, L. J." }
+      ],
+      "datePublished": "2025-11-19"
+    },
+    {
+      "@type": "PresentationDigitalDocument",
+      "name": "Introducing ConnOSS - Connected Open-Source Software",
+      "@id": "https://doi.org/10.5281/zenodo.18836442",
+      "author": [
+        { "@type": "Person", "name": "Sefidbari, M." },
+        { "@type": "Person", "name": "Venkatesh, S." },
+        { "@type": "Person", "name": "Gan, L." },
+        { "@type": "Person", "name": "Jafarbigloo, A." },
+        { "@type": "Person", "name": "Ferenz, S." },
+        { "@type": "Person", "name": "Mathiak, B." },
+        { "@type": "Person", "name": "Nieße, A." },
+        { "@type": "Person", "name": "Werth, O." },
+        { "@type": "Person", "name": "Castro, L. J." }
+      ],
+      "datePublished": "2026-03-01"
+    }
+  ]
 }
