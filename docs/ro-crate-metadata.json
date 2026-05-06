@@ -1,257 +1,133 @@
 {
-  "@context": "https://w3id.org/ro/crate/1.1/context",
+  "@context": "https://w3id.org/ro/crate/1.2/context",
   "@graph": [
     {
       "@id": "ro-crate-metadata.json",
       "@type": "CreativeWork",
-      "conformsTo": {
-        "@id": "https://w3id.org/ro/crate/1.1"
-      },
-      "about": {
-        "@id": "./"
-      }
+      "about": {"@id": "https://w3id.org/ro-crate/connoss"},
+      "conformsTo": { "@id": "https://w3id.org/ro/crate/1.2" }
     },
     {
-      "@id": "./",
-      "@type": ["Dataset"],
+      "@id": "https://w3id.org/ro-crate/connoss",
+      "@type": "Dataset",
+      "cite-as": "https://w3id.org/ro-crate/connoss",
+      "datePublished": "2025-09-01",
       "name": "RO-crate for the research project 'ConnOSS'",
       "description": "This RO-crate describes the research project 'ConnOSS' including metadata about the project itself and the research outcomes created as part of it. The outcomes are listed via the hasPart property of the RO-crate. The purpose is providing a comprehensive view of the research outcomes.",
-      "datePublished": "2025-09-01",
-      "license": {
-        "@type": "CreativeWork",
-        "@id": "http://spdx.org/licenses/CC-BY-SA-4.0",
-        "name": "Creative Commons Attribution Share Alike 4.0 International",
-        "alternateName": "CC BY-SA 4.0",
-        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-      },
-      "keywords": [
-        "ConnOSS",
-        "research project",
-        "research software",
-        "software metadata"
-      ],
-      "about": { "@id": "https://connoss-project.github.io/" },
+      "license": { "@id": "http://spdx.org/licenses/CC-BY-SA-4.0" },
+      "creditText": "Castro, L. J., Mathiak, B., & Nieße, A. (2025, June). Connected Open Source Software—ConnOSS - Proposal (Version v1.0.0) [Proposal]. Zenodo. https://doi.org/10.5281/zenodo.15616384",
+      "citation": { "@id": "https://doi.org/10.5281/zenodo.15616384" },
+      
       "hasPart": [
-        { "@id": "https://doi.org/10.5281/zenodo.15616384" },
-        { "@id": "https://doi.org/10.5281/zenodo.18835973" },
-        { "@id": "https://doi.org/10.5281/zenodo.18837374" },
-        { "@id": "https://doi.org/10.5281/zenodo.17642991" },
-        { "@id": "https://doi.org/10.5281/zenodo.18836442" }
-      ]
+        { "@id": "https://connoss-project.github.io/connoss_metadata.json" },
+        { "@id": "https://zenodo.org/records/18837374/files/deRSE26%20-%20Gitlab_Metadata_extraction.pdf" },
+        { "@id": "https://zenodo.org/records/18835973/files/deRSE26%20ConnOSS%20Poster.pdf" },
+        { "@id": "https://zenodo.org/records/18836442/files/Introducing%20ConnOSS%20-%20deRSE26.pdf" },
+        { "@id": "https://zenodo.org/records/17642991/files/2025.11.19%20-%20Metadata%20for%20SW%20and%20AI.pptx.pdf" },
+        { "@id": "https://zenodo.org/records/15616384/files/ConnOSS.pdf" }
+      ],
+
+      "mainEntity": { "@id": "https://w3id.org/research-project/connoss" },
+      "keywords": ["ConnOSS", "research project", "research software", "software visibility", "software discoverability", "harmonized metadata", "enriched metadata", "FAIRness"]
     },
+
     {
-      "@id": "https://connoss-project.github.io/",
-      "@type": "ResearchProject",
-      "name": "ConnOSS",
-      "foundingDate": "2025-09-01",
-      "description": "ConnOSS is a DFG-funded research project that aims to help researchers showcase their software work and makes it easier for others to find and use research software. We believe that good research software should be visible, properly described, and easy to discover. ConnOSS offers an automated infrastructure that generates consistent, harmonized, and enriched metadata for research software. Unlike manual metadata creation, which is time-consuming, or existing tools with limited coverage, ConnOSS streamlines the process—enabling researchers to enhance the visibility and FAIRness of their software with minimal effort.",
-      "keywords": "ConnOSS", "research project", "research software", "software visibility", "software discoverability", "harmonized metadata", "enriched metadata", "FAIRness",
-      "url": "https://connoss-project.github.io/",
-      "employee": [
-        { "@id": "https://orcid.org/0000-0003-3986-0510" },
-        { "@id": "https://orcid.org/0000-0003-1793-9615" },
-        { "@id": "https://orcid.org/0000-0003-1881-9172" },
-        { "@id": "https://orcid.org/0000-0001-9523-7227" },
-        { "@id": "https://orcid.org/0000-0001-5844-3021" },
-        { "@id": "https://orcid.org/0000-0002-6767-5905" },
-        { "@id": "https://orcid.org/0000-0002-1435-0584" },
-        { "@id": "https://orcid.org/0009-0005-7305-3052" },
-        { "@id": "https://orcid.org/0009-0008-7998-3965" }
-      ],
-      "funding": [
-        { "@id": "https://gepris.dfg.de/gepris/projekt/561044496" }
-      ],
-      "member": [
-        { "@id": "https://ror.org/0259fwx54" },
-        { "@id": "https://ror.org/018afyw53" },
-        { "@id": "https://ror.org/003sav189" },
-        { "@id": "https://ror.org/033n9gh91" }
-      ],
-      "knowsAbout": [
-        { "@id": "https://doi.org/10.5281/zenodo.15616384" },
-        { "@id": "https://doi.org/10.5281/zenodo.18835973" },
-        { "@id": "https://doi.org/10.5281/zenodo.18837374" },
-        { "@id": "https://doi.org/10.5281/zenodo.17642991" },
-        { "@id": "https://doi.org/10.5281/zenodo.18836442" }
-      ]
+      "@type": "CreativeWork",
+      "@id": "http://spdx.org/licenses/CC-BY-SA-4.0",
+      "name": "Creative Commons Attribution Share Alike 4.0 International",
+      "alternateName": "CC BY-SA 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
     },
     {
       "@type": "Report",
       "@id": "https://doi.org/10.5281/zenodo.15616384",
       "name": "Connected Open Source Software - ConnOSS - Proposal (Version v1.0.0)",
-      "identifier": "DOI:10.5281/zenodo.15616384",
-      "datePublished": "2025-06-07",
       "author": [
-        { "@id": "https://orcid.org/0000-0003-3986-0510" },
-        { "@id": "https://orcid.org/0000-0003-1793-9615" },
-        { "@id": "https://orcid.org/0000-0003-1881-9172" }
-      ]
+        { "@type": "Person", "@id": "https://orcid.org/0000-0003-3986-0510", "name": "Castro, L. J." },
+        { "@type": "Person", "@id": "https://orcid.org/0000-0003-1793-9615", "name": "Mathiak, B." },
+        { "@type": "Person", "@id": "https://orcid.org/0000-0003-1881-9172", "name": "Nieße, A." }
+      ],
+      "datePublished": "2025-06-07"
+    },
+
+    {
+      "@id": "https://connoss-project.github.io/connoss_metadata.json",
+      "@type": "File",
+      "name": "connoss_metadata.json",
+      "contentSize": "9 kB",
+      "description": "Schema.org metadata for ConnOSS as a ResearchProject",
+      "encodingFormat": "application/ld+json",
+      "sdDatePublished": "2026-06-06T12:00:00+02:00Z"
     },
     {
-      "@type": "Poster",
-      "@id": "https://doi.org/10.5281/zenodo.18835973",
-      "name": "ConnOSS and Metadata Extraction for Research Software",
-      "identifier": "DOI:10.5281/zenodo.18835973",
-      "datePublished": "2026-03-02",
-      "author": [
-        { "@id": "https://orcid.org/0000-0002-1435-0584" },
-        { "@id": "https://orcid.org/0000-0003-1793-9615" },
-        { "@id": "https://orcid.org/0000-0003-3986-0510" },
-        { "@id": "https://orcid.org/0000-0001-5844-3021" },
-        { "@id": "https://orcid.org/0009-0008-7998-3965" },
-        { "@id": "https://orcid.org/0000-0002-6767-5905" },
-        { "@id": "https://orcid.org/0009-0005-7305-3052" }
-      ]
+      "@id": "https://zenodo.org/records/18837374/files/deRSE26%20-%20Gitlab_Metadata_extraction.pdf",
+      "@type": "File",
+      "name": "deRSE26 - Gitlab_Metadata_extraction.pdf",
+      "contentSize": "1.3 MB",
+      "description": "A metadata extraction tool for GitLab repositories",
+      "encodingFormat": "application/pdf",
+      "sdDatePublished": "2026-06-06T12:00:00+02:00Z"
     },
     {
-      "@type": "PresentationDigitalDocument",
-      "@id": "https://doi.org/10.5281/zenodo.18837374",
-      "name": "A metadata extraction tool for GitLab repositories. deRSE26 - Conference for Research Software Engineering in Germany (deRSE26).",
-      "identifier": "DOI:10.5281/zenodo.18837374",
-      "datePublished": "2026-03-02",
-      "author": [
-        { "@id": "https://orcid.org/0009-0003-9975-1321" },
-        { "@id": "https://orcid.org/0009-0005-7305-3052" },
-        { "@id": "https://orcid.org/0000-0003-3986-0510" }
-      ]
+      "@id": "https://zenodo.org/records/18835973/files/deRSE26%20ConnOSS%20Poster.pdf",
+      "@type": "File",
+      "name": "deRSE26 ConnOSS Poster.pdf",
+      "contentSize": "930 kB",
+      "description": "ConnOSS and Metadata Extraction for Research Software",
+      "encodingFormat": "application/pdf",
+      "sdDatePublished": "2026-06-06T12:00:00+02:00Z"
     },
     {
-      "@type": "PresentationDigitalDocument",
-      "@id": "https://doi.org/10.5281/zenodo.17642991",
-      "name": "Initiatives at ZB MED and NFDI on metadata for software and AI models",
-      "identifier": "DOI:10.5281/zenodo.17642991",
-      "datePublished": "2025-11-19",
-      "author": [
-        { "@id": "https://orcid.org/0000-0003-3986-0510" }
-      ]
+      "@id": "https://zenodo.org/records/18836442/files/Introducing%20ConnOSS%20-%20deRSE26.pdf?download=1",
+      "@type": "File",
+      "name": "Introducing ConnOSS - deRSE26.pdf",
+      "contentSize": "833.9 kB",
+      "description": "Introducing ConnOSS - Connected Open-Source Software",
+      "encodingFormat": "application/pdf",
+      "sdDatePublished": "2026-06-06T12:00:00+02:00Z"
     },
     {
-      "@type": "PresentationDigitalDocument",
-      "@id": "https://doi.org/10.5281/zenodo.18836442",
-      "name": "Introducing ConnOSS - Connected Open-Source Software",
-      "identifier": "DOI:10.5281/zenodo.18836442",
-      "datePublished": "2026-03-01",
-      "author": [
-        { "@id": "https://orcid.org/0009-0008-7998-3965" },
-        { "@id": "https://orcid.org/0009-0005-7305-3052" },
-        { "@id": "https://orcid.org/0000-0001-5844-3021" },
-        { "@id": "https://orcid.org/0000-0002-1435-0584" },
-        { "@id": "https://orcid.org/0000-0001-9523-7227" },
-        { "@id": "https://orcid.org/0000-0003-1793-9615" },
-        { "@id": "https://orcid.org/0000-0003-1881-9172" },
-        { "@id": "https://orcid.org/0000-0002-6767-5905" },
-        { "@id": "https://orcid.org/0000-0003-3986-0510" }
-      ]
+      "@id": "https://zenodo.org/records/17642991/files/2025.11.19%20-%20Metadata%20for%20SW%20and%20AI.pptx.pdf",
+      "@type": "File",
+      "name": "2025.11.19 - Metadata for SW and AI.pptx.pdf",
+      "contentSize": "1.4 MB",
+      "description": "Initiatives at ZB MED and NFDI on metadata for software and AI models",
+      "encodingFormat": "application/pdf",
+      "sdDatePublished": "2026-06-06T12:00:00+02:00Z"
     },
     {
-      "@id": "https://orcid.org/0000-0003-3986-0510",
-      "@type": "Person",
-      "givenName": "Leyla Jael",
-      "familyName": "Castro"
+      "@id": "https://zenodo.org/records/15616384/files/ConnOSS.pdf",
+      "@type": "File",
+      "name": "ConnOSS.pdf",
+      "contentSize": "442.7 kB",
+      "description": "Connected Open Source Software - ConnOSS - Proposal",
+      "encodingFormat": "application/pdf",
+      "sdDatePublished": "2026-06-06T12:00:00+02:00Z"
     },
+    
     {
-      "@id": "https://orcid.org/0000-0003-1793-9615",
-      "@type": "Person",
-      "givenName": "Brigitte",
-      "familyName": "Mathiak"
-    },
-    {
-      "@id": "https://orcid.org/0000-0003-1881-9172",
-      "@type": "Person",
-      "givenName": "Astrid",
-      "familyName": "Nieße"
-    },
-    {
-      "@id": "https://orcid.org/0000-0001-9523-7227",
-      "@type": "Person",
-      "givenName": "Stephan",
-      "familyName": "Ferenz"
-    },
-    {
-      "@id": "https://orcid.org/0000-0001-5844-3021",
-      "@type": "Person",
-      "givenName": "Lu",
-      "familyName": "Gan"
-    },
-    {
-      "@id": "https://orcid.org/0000-0002-6767-5905",
-      "@type": "Person",
-      "givenName": "Oliver",
-      "familyName": "Werth"
-    },
-    {
-      "@id": "https://orcid.org/0000-0002-1435-0584",
-      "@type": "Person",
-      "givenName": "Aida",
-      "familyName": "Jafarbigloo"
-    },
-    {
-      "@id": "https://orcid.org/0009-0005-7305-3052",
-      "@type": "Person",
-      "givenName": "Suhasini",
-      "familyName": "Venkatesh"
-    },
-    {
-      "@id": "https://orcid.org/0009-0008-7998-3965",
-      "@type": "Person",
-      "givenName": "Maryam",
-      "familyName": "Sefidbari"
-    },
-    {
-      "@id": "https://orcid.org/0009-0003-9975-1321",
-      "@type": "Person",
-      "givenName": "Akhilan",
-      "familyName": "Ashokan"
+      "@id": "https://w3id.org/research-project/connoss",
+      "@type": "ResearchProject",
+      "name": "ConnOSS",
+      "description": "ConnOSS is a DFG-funded research project that aims to help researchers showcase their software work and makes it easier for others to find and use research software. We believe that good research software should be visible, properly described, and easy to discover. ConnOSS offers an automated infrastructure that generates consistent, harmonized, and enriched metadata for research software. Unlike manual metadata creation, which is time-consuming, or existing tools with limited coverage, ConnOSS streamlines the process—enabling researchers to enhance the visibility and FAIRness of their software with minimal effort.",
+      "foundingDate":  "2025-09-01",
+      "funding": { "@id": "https://gepris.dfg.de/gepris/projekt/561044496" },
+      "keywords": "ConnOSS, research project, research software, software visibility, software discoverability, harmonized metadata, enriched metadata, FAIRness",
+      "url": "https://connoss-project.github.io/"
     },
     {
       "@id": "https://gepris.dfg.de/gepris/projekt/561044496",
       "@type": "Grant",
-      "identifier": "561044496",
       "description": "Project no. 561044496, as part of the \"Research Data and Software\" program within the Scientific Library Services and Information Systems (LIS) funding scheme.",
-      "funder": {
-        "@id": "https://ror.org/018mejw64"
-      }
+      "funder": { "@id": "https://ror.org/018mejw64" },
+      "identifier": "561044496"
     },
     {
-      "@id": "https://ror.org/018mejw64",
       "@type": "Organization",
-      "name": "Deutsche Forschungsgemeinschaft",
+      "@id": "https://ror.org/018mejw64",
+      "name": "Deutsche Forschungsgemeinschaft", 
       "alternateName": "German Research Foundation",
-      "url": {
-        "@id": "http://www.dfg.de/en/"
-      }
-    },
-    {
-      "@id": "https://ror.org/0259fwx54",
-      "@type": "ResearchOrganization",
-      "name": "ZB MED – Information Centre for Life Sciences",
-      "url": {
-        "@id": "https://www.zbmed.de/"
-      }
-    },
-    {
-      "@id": "https://ror.org/018afyw53",
-      "@type": "ResearchOrganization",
-      "name": "GESIS – Leibniz Institute for the Social Sciences",
-      "url": {
-        "@id": "https://www.gesis.org/"
-      }
-    },
-    {
-      "@id": "https://ror.org/003sav189",
-      "@type": "ResearchOrganization",
-      "name": "OFFIS – Institute for Information Technology",
-      "url": {
-        "@id": "https://www.offis.de/"
-      }
-    },
-    {
-      "@id": "https://ror.org/033n9gh91",
-      "@type": "ResearchOrganization",
-      "name": "Carl von Ossietzky Universität",
-      "url": {
-        "@id": "https://uni-oldenburg.de/"
-      }
+      "url": "http://www.dfg.de/en/"  
     }
   ]
 }
