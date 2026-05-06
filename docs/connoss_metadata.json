@@ -98,6 +98,7 @@
     },
     {
       "@type": "Person",
+      "@id": "https://orcid.org/0009-0003-9975-1321",
       "givenName": "Akhilan",
       "familyName": "Ashokan",
       "affiliation": { "@id":"https://ror.org/0259fwx54" }
@@ -150,7 +151,7 @@
       "name": "A metadata extraction tool for GitLab repositories",
       "@id": "https://doi.org/10.5281/zenodo.18837374",
       "author": [
-        { "@type": "Person", "name": "Ashokan, A." },
+        { "@type": "Person", "@id": "https://orcid.org/0009-0003-9975-1321", "name": "Ashokan, A." },
         { "@type": "Person", "@id": "https://orcid.org/0009-0005-7305-3052", "name": "Venkatesh, S." },
         { "@type": "Person", "@id": "https://orcid.org/0000-0003-3986-0510", "name": "Castro, L. J." }
       ],
