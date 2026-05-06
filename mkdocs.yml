@@ -1,7 +1,8 @@
 site_name: ConnOSS
-site_url: https://connoss.org
+site_url: https://connoss-project.github.io/
 theme:
   name: material
+  custom_dir: overrides
   logo: images/logo.png
   favicon: images/logo.png
   palette:

@@ -1,6 +1,6 @@
 {
   "@context": "http://schema.org/",
-  "@id": "https://connoss-project.github.io/",
+  "@id": "https://w3id.org/connoss/",
   "@type": "ResearchProject",
   "name": "ConnOSS", 
   "foundingDate": "2025-09-01",

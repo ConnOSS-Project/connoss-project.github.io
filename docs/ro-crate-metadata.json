@@ -4,13 +4,13 @@
     {
       "@id": "ro-crate-metadata.json",
       "@type": "CreativeWork",
-      "about": {"@id": "https://w3id.org/ro-crate/connoss"},
+      "about": {"@id": "https://w3id.org/connoss/ro-crate"},
       "conformsTo": { "@id": "https://w3id.org/ro/crate/1.2" }
     },
     {
-      "@id": "https://w3id.org/ro-crate/connoss",
+      "@id": "https://w3id.org/connoss/ro-crate",
       "@type": "Dataset",
-      "cite-as": "https://w3id.org/ro-crate/connoss",
+      "cite-as": "https://w3id.org/connoss/ro-crate",
       "datePublished": "2025-09-01",
       "name": "RO-crate for the research project 'ConnOSS'",
       "description": "This RO-crate describes the research project 'ConnOSS' including metadata about the project itself and the research outcomes created as part of it. The outcomes are listed via the hasPart property of the RO-crate. The purpose is providing a comprehensive view of the research outcomes.",
@@ -27,7 +27,7 @@
         { "@id": "https://zenodo.org/records/15616384/files/ConnOSS.pdf" }
       ],
 
-      "mainEntity": { "@id": "https://w3id.org/research-project/connoss" },
+      "mainEntity": { "@id": "https://w3id.org/connoss/" },
       "keywords": ["ConnOSS", "research project", "research software", "software visibility", "software discoverability", "harmonized metadata", "enriched metadata", "FAIRness"]
     },
 
@@ -106,7 +106,7 @@
     },
     
     {
-      "@id": "https://w3id.org/research-project/connoss",
+      "@id": "https://w3id.org/connoss/",
       "@type": "ResearchProject",
       "name": "ConnOSS",
       "description": "ConnOSS is a DFG-funded research project that aims to help researchers showcase their software work and makes it easier for others to find and use research software. We believe that good research software should be visible, properly described, and easy to discover. ConnOSS offers an automated infrastructure that generates consistent, harmonized, and enriched metadata for research software. Unlike manual metadata creation, which is time-consuming, or existing tools with limited coverage, ConnOSS streamlines the process—enabling researchers to enhance the visibility and FAIRness of their software with minimal effort.",
