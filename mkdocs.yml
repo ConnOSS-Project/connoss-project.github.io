@@ -17,3 +17,6 @@ plugins:
 
 extra_css:
   - stylesheets/connoss.css
+
+hooks:
+  - hooks/inject_jsonld.py
