@@ -1,6 +1,6 @@
 # Home
 
-## ConnOSS (**Conn**ected **O**pen **S**ource **S**oftware)
+## ConnOSS (Connected Open Source Software)
 
 ConnOSS is a DFG-funded research project that aims to help researchers showcase their software work and makes it easier for others to find and use research software. We believe that good research software should be visible, properly described, and easy to discover.
 
