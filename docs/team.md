@@ -59,10 +59,13 @@ OFFIS - Institute for Information Technology
 👤 **[Aida Jafarbigloo](https://orcid.org/0000-0002-1435-0584)**  
 Carl von Ossietzky Universität Oldenburg
 
+👤 **[Maryam Sefidbari](https://orcid.org/0009-0008-7998-3965)**  
+ZB MED - Information Centre for Life Sciences
+
 👤 **[Suhasini Venkatesh](https://orcid.org/0009-0005-7305-3052)**  
 ZB MED - Information Centre for Life Sciences
 
-👤 **[Maryam Sefidbari](https://orcid.org/0009-0008-7998-3965)**  
+👤 **[Lukas Hassel](https://orcid.org/0009-0003-1671-4382)**  
 ZB MED - Information Centre for Life Sciences
 
 ## Get in Touch
